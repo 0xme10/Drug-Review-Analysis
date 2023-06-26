@@ -1,4 +1,4 @@
-# Project Name
+# Drug Review Analysis
 
 Drug Review Analysis: An exploration on sentiment analysis and how condition classification of text review can extract positive and negative effects of drugs sold to patients.
 
