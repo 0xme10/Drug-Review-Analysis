@@ -15,6 +15,12 @@ This repository contains the following files:
 - **Label Decoder**: A pickle file used for condition decoding.
 - **Executive Summary Report**: A PDF document summarizing the key findings, insights, and conclusions of the project.
 - **Drug Availability CSV**: A CSV file containing web-scraped data on drug availability from drugs.com.
+  
+## Enviroment
+we create the enviroment drug_review for this project by using the conda terminal.
+
+conda create -n drug_review pandas numpy seaborn matplotlib scikit-learn nltk textblob requests beautifulsoup4 torch transformers tqdm
+
 
 ## Project Overview
 
@@ -35,7 +41,7 @@ By organizing our project into separate notebooks, we maintain clarity, modulari
 To get started with the project, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Ensure you have the required dependencies installed. You can refer to the `requirements.txt` file for more information.
+2. Ensure you have the required dependencies installed. You can refer to the `readme.md` file for more information.
 3. Explore the notebooks in the provided order to understand the project workflow and analysis process.
 4. Execute the notebooks by running the cells to reproduce the analysis and results.
 5. Refer to the Executive Summary Report for a comprehensive overview of the project, including key findings, insights, and conclusions.
